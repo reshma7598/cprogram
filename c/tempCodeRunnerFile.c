@@ -1,14 +1,11 @@
-# include <stdio.h>
-int sum(int i);
-int main() {
-int result = sum (100);
-printf("%d", result);
-return 0;
-}
-int sum(int i){    // function
-  if (i > 0) {
-    return i + sum (i - 1);
-  }else{
-    return 0;
-  }
+#include<stdio.h>
+int main(){
+    int rows=5,i,j;
+   for(i=rows;i>=5;--i){
+   for(j=1;j<=i;++j){
+   printf("* ");
+   }
+   printf("\n");
+   }
+   return 0;
 }
