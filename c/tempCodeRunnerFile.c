@@ -1,11 +1,3 @@
-#include<stdio.h>
-int main(){
-    int rows=5,i,j;
-   for(i=rows;i>=5;--i){
-   for(j=1;j<=i;++j){
-   printf("* ");
-   }
-   printf("\n");
-   }
-   return 0;
-}
+#include <stdio.h>
+
+int findMax(int arr[], int size) {

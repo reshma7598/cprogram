@@ -16,17 +16,19 @@
 
 // reverse star pattern
 
-// #include<stdio.h>
-// int main(){
-//     int rows=10,i,j;
-//    for(i=rows;i>=1;--i){
-//    for(j=1;j<=i;++j){
-//    printf("* ");
-//    }
-//    printf("\n");
-//    }
-//    return 0;
-// }
+#include<stdio.h>
+int main(){
+    int rows,i,j;
+    printf("Enter the number of rows: ");
+    scanf("%d",&rows);
+   for(i=rows;i>=1;--i){
+   for(j=1;j<=i;++j){
+   printf("- ");
+   }
+   printf("\n");
+   }
+   return 0;
+}
 
 
 // pyramid pattern
@@ -48,22 +50,22 @@
 // }
 
 
+// reverse star pyramid 
 
-#include <stdio.h>
+// #include <stdio.h>
+// int main() {
+//    int rows, i, j, space;
+//    printf("Enter the number of rows: ");
+//    scanf("%d", &rows);
+//    for (i = rows; i >= 1; --i) {
+//       for (space = 0; space < rows - i; ++space)
+//          printf("  ");
+//       for (j = i; j <= 2 * i - 1; ++j)
+//          printf("* ");
+//       for (j = 0; j < i - 1; ++j)
+//          printf("* ");
+//       printf("\n");
+//    }
+//    return 0;
+// }
 
-int main() {
-    int rows, spaces,i, j;
-
-    printf("Enter the number of rows: ");
-    scanf("%d", &rows);
-    for(i = rows; i >= 1; i--) {
-        for(spaces = 0; spaces < rows - i; spaces++) {
-            printf(" ");
-        }
-        for(j = 1; j <= 2 * i - 1; j++) {
-            printf("* ");
-        }
-        printf("\n");
-    }
-    return 0;
-}

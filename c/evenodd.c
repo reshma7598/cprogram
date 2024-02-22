@@ -16,20 +16,6 @@
 //     return 0;
 // }
 
-// EVEN NUMBERS
-
-
-    // #include<stdio.h>
-    // int main(){
-    //     int limit=100,i;
-    //     for(i=2;i<=limit;i++){
-    //         if(i%2==0){
-    //         printf("%d \n",i);
-    //     }
-    // }
-    // return 0;
-    // }
-
     // PRIME NUMBERS
 
 
@@ -52,17 +38,3 @@
 //     }
 
 
-  #include <stdio.h>
-int main() {
-    int num;
-
-    printf("Enter a number: ");
-    scanf("%d", &num);
-    if (num % 2 == 0) {
-        printf("%d is even.\n", num);
-    } else {
-        printf("%d is odd.\n", num);
-    }
-    break ; 
-    return 0;
-}
