@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h> // For exit()
 
-#define MAX 100
+#define MAX 100   //value nu determine chyeanu
 
-void create();
+void create();    //function nte prototype aanu
 void display();
 void insert();
 void deleteItem();
@@ -13,7 +13,7 @@ int main() {
     int ch;
 
     while (1) {
-        printf("Enter your choice\n");
+        printf("Enter your choice\n");    //optopns (menu)
         printf("1. Create\n");
         printf("2. Display\n");
         printf("3. Insert\n");
@@ -25,7 +25,7 @@ int main() {
 
         switch (ch) {
             case 1:
-                create();
+                create();   //function nte definitions ahne( create ,display,insert,deleteitem,search)
                 break;
             case 2:
                 display();
