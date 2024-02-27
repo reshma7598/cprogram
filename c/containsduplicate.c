@@ -1,5 +1,5 @@
 #include <stdio.h>
-int containsDuplicate(int nums[], int numsSize) {
+int contDupli(int nums[], int numsSize) {
     for (int i = 0; i < numsSize - 1; i++) {
         for (int j = i + 1; j < numsSize; j++) {
             if (nums[i] == nums[j]) {
@@ -18,7 +18,7 @@ int main() {
     for (int i = 0; i < size; i++) {
         scanf("%d", &array[i]);
     }
-    if (containsDuplicate(array, size)) {
+    if (contDupli(array, size)) {
         printf("true\n");
     } else {
         printf("false\n");

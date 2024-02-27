@@ -59,12 +59,10 @@ void create() {
 
     printf("Enter %d elements:\n", n);
     for (i = 0; i < n; i++) {
-        scanf("%d", &a[i]);
+        scanf("%d",&a[i]);
     }
-
     printf("Array created successfully.\n");
 }
-
 void display() {
 }
 
@@ -76,3 +74,73 @@ void deleteItem() {
 
 void search() {
 }
+
+
+// #include<stdio.h>
+// #include<stdlib.h>
+
+// #define MAX 10
+
+// void create();
+// void display();
+// void insert();
+// void deleteItem();
+// void search();
+
+// int main (){
+//     int ch;
+//     printf("Enter your choice");
+//     scanf("%d",ch);
+//     while(1){
+//         printf("1.create");
+//         printf("2.display");
+//         printf("3.insert");
+//         printf("4.deleteItem");
+//         printf("5.search");
+//         printf("6.exit");
+//     };
+//     switch (ch) {
+//         case 1:
+//         create ();
+//         break;
+//         case 2:
+//         display ();
+//         break;
+//         case 3:
+//         insert ();
+//         break;
+//         case 4:
+//         deleteItem();
+//         break;
+//         case 5:
+//         search ();
+//         break;
+//         case 6:
+//         exit (0);
+//         break;
+//         default:
+//         printf("invalid option");
+//     }
+//     };
+// void create(){
+//     int n,i,j;
+//     int a [MAX];
+//     printf("enter the number f array to be added");
+//     scanf("%d", n);
+// for(i=0;i<=n;i++){
+//     printf("%d", &a[i]);
+// }
+// printf("Array created successfully.\n");
+// }
+// void display() {
+    
+// }
+
+// void insert() {
+// }
+
+// void deleteItem() {
+// }
+
+// void search() {
+// };
