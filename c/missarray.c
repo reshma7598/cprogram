@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int findmissNumb(int arr[],int size){
     int total=(size+1)*(size+2)/2;
     int sum=0;
