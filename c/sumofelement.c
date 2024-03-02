@@ -1,6 +1,4 @@
 // sum of the element
-
-
 // #include<stdio.h>
 // int main(){
 //     int numb1,numb2,sum;
@@ -14,15 +12,13 @@
 // }
 
 
-
-#include <stdio.h>
+#include<stdio.h>
 int main(){
-    int arr[5]={1,5,40,50,55};
+    int arr[5]={1,55,62,25,34};
     int sum=0;
     for(int i=0;i<=5;i++){
         sum += arr[i];
     }
-    printf("sum of the element: %d\n", sum);
+        printf("Sum of elements: %d\n", sum);
     return 0;
 }
-
