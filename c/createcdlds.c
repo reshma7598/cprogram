@@ -48,10 +48,10 @@ int main() {
     }
 
     return 0;
-}
+};
 
 void create() {
-    int n, i;
+    int n, i,a;
     int a[MAX];
 
     printf("Enter the number of elements to be added to the array: ");
@@ -61,12 +61,16 @@ void create() {
     for (i = 0; i < n; i++) {
         scanf("%d",&a[i]);
     }
-    printf("Array created successfully.\n");
-}
+};
 void display() {
 }
 
 void insert() {
+    printf("elemnets in the array are:");
+    for (int i=0;i<=n;i++){
+        printf("%d",a[i]);
+
+    }
 }
 
 void deleteItem() {
