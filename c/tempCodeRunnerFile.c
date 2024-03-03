@@ -1,3 +1,1 @@
-#include <stdio.h>
-
-int findMax(int arr[], int size) {
+reverse star pyramid 

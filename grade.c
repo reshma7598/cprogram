@@ -1,24 +1,24 @@
 #include <stdio.h>
 int main(){
 
- //marks details
-int marks;
-printf("Enter the student's marks");
-scanf("%d", &marks);
+//Marks details
+int Marks;
+printf("Enter the student's Marks");
+scanf("%d", &Marks);
 char grade;
-if (marks >= 90 && marks <= 100) 
+if (Marks >= 90 && Marks <= 100) 
 {
 grade = 'A';
 } 
-else if (marks >= 80 && marks <= 89) 
+else if (Marks >= 80 && Marks <= 89) 
 {
 grade = 'B';
 } 
-else if (marks >= 70 && marks <= 79)
+else if (Marks >= 70 && Marks <= 79)
 {
 grade = 'C';
 }
-else if (marks >= 60 && marks <= 69)
+else if (Marks >= 60 && Marks <= 69)
 {
 grade = 'D';
 }
