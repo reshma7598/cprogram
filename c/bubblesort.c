@@ -1,28 +1,26 @@
-#include <stdio.h>
+// bubble sort
 
-void bubbleSort(int arr[], int n) {
-    int i, j;
-    for (i = 0; i < n-1; i++) {
-        // Last i elements are already in place
-        for (j = 0; j < n-i-1; j++) {
-            // Traverse the array from 0 to n-i-1
-            // Swap if the element found is greater than the next element
+#include<stdio.h>
+int main() {
+    int arr[] = {58,75,95,35,25,5,64};
+    int n = sizeof(arr) / sizeof(arr[0]);   //calculating
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n-i-1; j++) {
             if (arr[j] > arr[j+1]) {
+        // swap
                 int temp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
             }
         }
     }
-}
 
-int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    bubbleSort(arr, n);
-    printf("Sorted array is: ");
-    for (int i = 0; i < n; i++)
+printf("Sorted array: ");
+    for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
+    }
     printf("\n");
+
     return 0;
 }
