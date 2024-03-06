@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 int main() {
-    int arr[] = {58,75,95,35,25,5,64};
+    int arr[] = {842,485,652,341,123,214,63};
     int n = sizeof(arr) / sizeof(arr[0]);   //calculating
 
     for (int i = 0; i < n; i++) {
@@ -15,7 +15,6 @@ int main() {
             }
         }
     }
-
 printf("Sorted array: ");
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
