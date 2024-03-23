@@ -6,13 +6,13 @@ int main(){
             if(i == size/2){
             printf("*");
             }else{
-        if(j==size/2){
+        if(j == size/2){
            printf("*");
                }else{
                 printf(" ");
                }
                }
-            }
+               }
             printf("\n");
         }
         return 0;
